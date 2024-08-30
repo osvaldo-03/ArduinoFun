@@ -11,18 +11,12 @@ This project is a laser targeting system I created for fun. It uses an ultrasoni
 - **Laser Diode**: Emits a laser beam to point at the detected object.
 - **Breadboard and Jumper Wires**: For connecting the components.
 
-## Circuit Diagram
-
-![Circuit Diagram](images/circuit-diagram.png)  
-*(Note: Include an image of your circuit diagram in the `images` folder.)*
-
 ## Code Explanation
 
 The code operates by sending a pulse from the ultrasonic sensor to measure the distance to an object. The distance is then mapped to an angle, which adjusts the position of the servo motor. The laser diode is turned on when an object is detected within a specified range, and the servo motor points the laser at the detected object.
 
 ### Code Breakdown
 
-```cpp
 #include <Servo.h>
 
 Servo servo;                   // Create a servo object
