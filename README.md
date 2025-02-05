@@ -1,6 +1,7 @@
 # These are porjects that I have coded and built in arduino. 
 
-Projects Overview
+Projects Overview:
+
 Dark Sensing LEDs
 For this project, I added a photoresistor and a transistor to the LED strips in my room. This setup allowed the LED strips to automatically turn on when the room lights were off, creating a simple yet effective dark-sensing system.
 
